@@ -1,3 +1,7 @@
+@media only screen and (max-width: 425px; ) {
+    
+
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -5,7 +9,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: rgb(30, 30, 30);;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -22,6 +26,7 @@
   
   .sidenav a:hover {
     color: #f1f1f1;
+    background-color: #df9753;
   }
   
   .sidenav .closebtn {
@@ -30,4 +35,12 @@
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    padding: 8px 20px;
   }
+
+  .sidenav a:active{
+    opacity: 0.8;
+}
+
+}
+
