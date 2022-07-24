@@ -18,19 +18,8 @@ header{
     padding: 0 20px;
 }
 
-.header-button{
-    cursor: pointer;
-    transition: opacity 0.15s;
-    height: 40px;
-    padding: 15px 15px;
-    font-size: 37px;
-    margin: 0;
+@media only screen and (min-width:426px) {
+span{
+    display:none ;
 }
-
-.header-button:hover{
-    background-color: #df9753;
-    
-}
-.header-button:active{
-    opacity: 0.8;
 }
