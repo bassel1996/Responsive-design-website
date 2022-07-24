@@ -47,6 +47,10 @@
       opacity: 0.8;
   }
 
+  span{
+    font-size:30px;cursor:pointer
+  }
+
 }
 
 
