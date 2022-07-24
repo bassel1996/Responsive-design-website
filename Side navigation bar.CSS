@@ -62,32 +62,42 @@
 @media only screen and (min-width:426px){
   span{
     display:none ;
-}
+  }
 
   .sidenav .closebtn{
     display: none;
   }
 
   .sidenav {
-    height: 100%;
-    width: 155px;
+
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
     position: fixed;
    
+    padding-left: 20px;
+
     top: 0;
     left: 0;
     background-color: rgb(30, 30, 30);;
 
-    padding-top: 60px;
+    
   }
 
   .sidenav a {
-    padding: 8px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
-    transition: 0.3s;
-    margin: 15px 0;
+    transition: 0.15s;
+    margin: 0 20px;
+    padding: 20px;
   }
   
   .sidenav a:hover {
