@@ -31,10 +31,3 @@ body{
   ======================
 */
 
-@media only screen and (min-width:426px){
-    body{
-
-        padding: 90px 85px 30px;
-        
-    }
-}
